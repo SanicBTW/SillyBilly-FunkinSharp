@@ -6,7 +6,6 @@ using FunkinSharp.Game.Core.Overlays;
 using FunkinSharp.Game.Core.Stores;
 using FunkinSharp.Game.Funkin;
 using FunkinSharp.Game.Funkin.Data.Event;
-using FunkinSharp.Resources;
 using osu.Framework.Allocation;
 using osu.Framework.Configuration;
 using osu.Framework.IO.Stores;
@@ -40,13 +39,13 @@ namespace FunkinSharp.Game
         [BackgroundDependencyLoader]
         private void load(FrameworkConfigManager config)
         {
-            DllResourceStore dllResx = new DllResourceStore(typeof(FunkinSharpResources).Assembly);
-
-            Paths.Initialize(Host, Audio, dllResx, Textures);
+            Paths.Initialize(Host, Audio, Textures, out DllResourceStore[] dllResources);
             SongEventRegistry.LoadEventCache();
-            Resources.AddStore(new DllResourceStore(typeof(FunkinSharpResources).Assembly));
+            foreach (DllResourceStore store in dllResources)
+            {
+                Resources.AddStore(store);
+            }
 
-            Resources.AddStore(dllResx);
             setupDependencies();
             loadFonts();
 

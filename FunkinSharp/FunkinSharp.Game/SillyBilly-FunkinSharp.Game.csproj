@@ -2,9 +2,11 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_").Replace("-","."))</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\FunkinSharp.Resources\SillyBilly-FunkinSharp.Resources.csproj" />
+    <ProjectReference Include="..\SillyBilly-FunkinSharp.Mod\SillyBilly-FunkinSharp.Mod.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ppy.osu.Framework" Version="2024.528.1" />

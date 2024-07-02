@@ -7,6 +7,7 @@ using osu.Framework.Graphics;
 using osu.Framework.Graphics.Containers;
 using osu.Framework.Input.Events;
 using osu.Framework.Screens;
+using SillyBilly.FunkinSharp.Game.Mod.Screens;
 using static FunkinSharp.Game.Core.Utils.EventDelegates;
 
 namespace FunkinSharp.Game.Funkin
@@ -151,12 +152,17 @@ namespace FunkinSharp.Game.Funkin
             return content;
         }
 
+        public void SwitchScreen(FunkinScreen newScreen) => ((FunkinSharpGame)Game).SwitchScreen(this, newScreen);
+
         // If overriden, call base so the Conductor Event listeners are properly added
         public override void OnEntering(ScreenTransitionEvent e)
         {
             Conductor.OnStepHit += StepHit;
             Conductor.OnBeatHit += BeatHit;
             Conductor.OnMeasureHit += MeasureHit;
+
+            if (this is not IntroScreen)
+                ((FunkinSharpGame)Game).SwitchScreen(this, null);
 
             base.OnEntering(e);
         }
@@ -186,6 +192,11 @@ namespace FunkinSharp.Game.Funkin
         public virtual void Add(Drawable drawable)
         {
             Content.Add(drawable);
+        }
+
+        public virtual void Remove(Drawable drawable, bool disposeImmediately)
+        {
+            Content.Remove(drawable, disposeImmediately);
         }
 
         // No need to call base on these methods since they do literally nothing
