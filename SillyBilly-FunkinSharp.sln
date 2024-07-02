@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.iOS"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Resources", "FunkinSharp\FunkinSharp.Resources\SillyBilly-FunkinSharp.Resources.csproj", "{E7159F46-D69B-4052-8560-36AD49CE895B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Mod", "FunkinSharp\SillyBilly-FunkinSharp.Mod\SillyBilly-FunkinSharp.Mod.csproj", "{C3F3D5A6-F8A3-4D74-9A1D-BFA2A66172C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E7159F46-D69B-4052-8560-36AD49CE895B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7159F46-D69B-4052-8560-36AD49CE895B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7159F46-D69B-4052-8560-36AD49CE895B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F3D5A6-F8A3-4D74-9A1D-BFA2A66172C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F3D5A6-F8A3-4D74-9A1D-BFA2A66172C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F3D5A6-F8A3-4D74-9A1D-BFA2A66172C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F3D5A6-F8A3-4D74-9A1D-BFA2A66172C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
