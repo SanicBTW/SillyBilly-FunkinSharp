@@ -1,5 +1,4 @@
-﻿using FunkinSharp.Game;
-using FunkinSharp.Game.Core;
+﻿using FunkinSharp.Game.Core;
 using FunkinSharp.Game.Funkin;
 using osu.Framework.Allocation;
 using osu.Framework.Audio.Track;
@@ -8,8 +7,6 @@ using osu.Framework.Graphics.Textures;
 using osu.Framework.Graphics.Video;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
-using FunkinSharp.Game.Core.Utils;
-using osu.Framework.Screens;
 
 namespace SillyBilly.FunkinSharp.Game.Mod.Screens
 {
@@ -66,7 +63,7 @@ namespace SillyBilly.FunkinSharp.Game.Mod.Screens
                 videoAudio.Dispose();
                 Content.Remove(video, true);
                 video = null;
-                SwitchScreen(new TestScreen());
+                SwitchScreen(new TitleScreen());
             }
         }
     }
