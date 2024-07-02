@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkinSharp.Desktop", "FunkinSharp\FunkinSharp.Desktop\FunkinSharp.Desktop.csproj", "{0F1CD96E-1E93-4D66-97B8-EF5ADD06605A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Desktop", "FunkinSharp\FunkinSharp.Desktop\SillyBilly-FunkinSharp.Desktop.csproj", "{0F1CD96E-1E93-4D66-97B8-EF5ADD06605A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkinSharp.Game", "FunkinSharp\FunkinSharp.Game\FunkinSharp.Game.csproj", "{51FC7CAD-90B7-4852-B4D7-401D3CCB8ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Game", "FunkinSharp\FunkinSharp.Game\SillyBilly-FunkinSharp.Game.csproj", "{51FC7CAD-90B7-4852-B4D7-401D3CCB8ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkinSharp.Game.Tests", "FunkinSharp\FunkinSharp.Game.Tests\FunkinSharp.Game.Tests.csproj", "{333D011C-D6DB-4300-B034-0534B000DD9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Game.Tests", "FunkinSharp\FunkinSharp.Game.Tests\SillyBilly-FunkinSharp.Game.Tests.csproj", "{333D011C-D6DB-4300-B034-0534B000DD9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkinSharp.iOS", "FunkinSharp\FunkinSharp.iOS\FunkinSharp.iOS.csproj", "{B12E0FE8-E549-4A33-9B2F-69233A937C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.iOS", "FunkinSharp\FunkinSharp.iOS\SillyBilly-FunkinSharp.iOS.csproj", "{B12E0FE8-E549-4A33-9B2F-69233A937C0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkinSharp.Resources", "FunkinSharp\FunkinSharp.Resources\FunkinSharp.Resources.csproj", "{E7159F46-D69B-4052-8560-36AD49CE895B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SillyBilly-FunkinSharp.Resources", "FunkinSharp\FunkinSharp.Resources\SillyBilly-FunkinSharp.Resources.csproj", "{E7159F46-D69B-4052-8560-36AD49CE895B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

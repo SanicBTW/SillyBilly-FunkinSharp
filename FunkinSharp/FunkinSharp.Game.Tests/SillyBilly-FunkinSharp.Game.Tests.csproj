@@ -5,7 +5,7 @@
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
   <ItemGroup Label="Project References">
-    <ProjectReference Include="..\FunkinSharp.Game\FunkinSharp.Game.csproj" />
+    <ProjectReference Include="..\FunkinSharp.Game\SillyBilly-FunkinSharp.Game.csproj" />
   </ItemGroup>
   <ItemGroup Label="Package References">
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />

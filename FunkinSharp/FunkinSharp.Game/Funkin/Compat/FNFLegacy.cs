@@ -11,22 +11,6 @@ namespace FunkinSharp.Game.Funkin.Compat
     // Will probably end up using psych format? uhhh
     public static class FNFLegacy
     {
-        public static BasicMetadata ConvertToBasic(string content)
-        {
-            SwagSong song = JsonConvert.DeserializeObject<DummyJSON>(content).Song;
-
-            return new()
-            {
-                SongName = song.Song,
-                Artist = "Unknown",
-                BPM = song.BPM,
-                Album = "volume1",
-                Difficulties = [], // possible difficulties are already parsed in the registry
-                GeneratedBy = SongConstants.DEFAULT_GENERATED_BY,
-                ScrollSpeeds = new() { { "s", song.Speed } },
-            };
-        }
-
         // TODO: Parse events
         // TODO: Convert player3 to gf version 
         public static SongMetadata ConvertToVSliceMeta(string content)

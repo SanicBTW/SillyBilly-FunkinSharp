@@ -4,7 +4,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FunkinSharp.Resources\FunkinSharp.Resources.csproj" />
+    <ProjectReference Include="..\FunkinSharp.Resources\SillyBilly-FunkinSharp.Resources.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ppy.osu.Framework" Version="2024.528.1" />

@@ -9,6 +9,6 @@
     <FileVersion>0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup Label="Project References">
-    <ProjectReference Include="..\FunkinSharp.Game\FunkinSharp.Game.csproj" />
+    <ProjectReference Include="..\FunkinSharp.Game\SillyBilly-FunkinSharp.Game.csproj" />
   </ItemGroup>
 </Project>

@@ -1,13 +1,13 @@
+using FunkinSharp.Game.Funkin;
 using osu.Framework.Allocation;
 using osu.Framework.Graphics;
 using osu.Framework.Graphics.Shapes;
 using osu.Framework.Graphics.Sprites;
-using osu.Framework.Screens;
 using osuTK.Graphics;
 
 namespace FunkinSharp.Game
 {
-    public partial class MainScreen : Screen
+    public partial class MainScreen : FunkinScreen
     {
         [BackgroundDependencyLoader]
         private void load()

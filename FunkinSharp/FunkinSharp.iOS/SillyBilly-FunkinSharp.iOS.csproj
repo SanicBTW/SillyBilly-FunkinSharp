@@ -17,8 +17,8 @@
     <RuntimeIdentifiers>iossimulator-x64</RuntimeIdentifiers>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FunkinSharp.Game\FunkinSharp.Game.csproj" />
-    <ProjectReference Include="..\FunkinSharp.Resources\FunkinSharp.Resources.csproj" />
+    <ProjectReference Include="..\FunkinSharp.Game\SillyBilly-FunkinSharp.Game.csproj" />
+    <ProjectReference Include="..\FunkinSharp.Resources\SillyBilly-FunkinSharp.Resources.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ppy.osu.Framework.iOS" Version="2024.329.0" />

@@ -13,7 +13,7 @@ namespace FunkinSharp.Game.Tests
 
             AddRange(new Drawable[]
             {
-                new TestBrowser("FunkinSharp"),
+                new TestBrowser("SillyBilly-FunkinSharp"),
                 new BasicCursorContainer()
             });
         }
